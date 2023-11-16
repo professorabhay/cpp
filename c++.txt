@@ -1,0 +1,40 @@
+Namespaces -> eg ->
+
+1 - login -> getTicket()
+2 - signup -> getTicket()
+
+program -> 
+
+{
+    getTicket();
+    getTicket();
+}
+
+Program is confused, which one I have to use and crash [to resolve this -> NAMESPACE]
+
+{
+    signup::getTicket()
+    login::getTicket()
+}
+
+Now, he knows what to use when !
+
+_ at start means private 
+__ means system keyword
+71 reserved keyword
+
+
+Qualifiers -
+
+Modification Qualifiers -> const, volatile, mutable
+LifeDuration Qualifiers -> static, register, extern [auto - outdated | now its default]
+
+
+Memory Leaks -
+
+
+Functions is Methods when written in class 
+
+constructor is a method which calls autometically  while using object. default implicit constructor
+
+ 
