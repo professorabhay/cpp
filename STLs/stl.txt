@@ -1,0 +1,13 @@
+Statndard Template Library 
+
+4 Types-> 
+
+1- Iterators  -> Loop them like vectors [input, output, forward]
+2- Functors   -> manage state, parameterized [pointer, constructor]
+3- Algorithms -> Search,  Sort
+4- Containers -> Implementations of well defined data structure
+        sequence types - Vector, list, deques, stacks, queues
+        associative type - Set, multisets, maps, multimaps (binary trees)
+            unordered associative types - Set, multisets, maps, multimaps (hash maps)
+            
+

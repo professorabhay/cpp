@@ -29,6 +29,7 @@ Qualifiers -
 Modification Qualifiers -> const, volatile, mutable
 LifeDuration Qualifiers -> static, register, extern [auto - outdated | now its default]
 
+const int a  = 10;
 
 Memory Leaks -
 
@@ -37,4 +38,14 @@ Functions is Methods when written in class
 
 constructor is a method which calls autometically  while using object. default implicit constructor
 
- 
+* - initialize Pointer
+& - reference
+
+
+Smart Pointers ->  solve to forgot delete. its an wrapper of real "raw" Pointer
+new 
+delete
+
+keywords use 
+
+Unique Pointers -> Cannot copy them 

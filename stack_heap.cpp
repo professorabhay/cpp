@@ -1,5 +1,5 @@
 // Fastest and Default 
-// Stack has preferred size while heap can increase
+// Stack has predefinedi size while heap can increase
 
 #include <iostream>
 using namespace std;
@@ -23,7 +23,9 @@ int main(){
 
     User* nike = new User();
     
-
+    delete heap_score;
+    delete nike;
+    
     return 0; 
 }
 

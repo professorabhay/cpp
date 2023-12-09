@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-// Constructor reserve memory !! 
+// Constructor reserve memory !!  A method which call as soon as object made.
 
 class Phone{
     string _name = "" ;
@@ -21,7 +21,7 @@ public:
 };
 
 int Phone::getPrice(){
-    printf("Value of getPrice is %p\n", this);                                                                                                                               
+    printf("Value of getPrice is %p\n", this);    // this is the "this" self referencing pointer                                                                                                                            
     return _price;
 }
 

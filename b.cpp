@@ -21,11 +21,11 @@ int main(){
     cout << "API Call Value: " << response << endl;
     cout << "API Call Value: " << res << endl;
 
-    if (typeid(response) == typeid(string)){
-        puts("Type of both ID matches\n");
-    }
-    // if (typeid(res) == typeid(int)){
+    // if (typeid(response) == typeid(string)){
     //     puts("Type of both ID matches\n");
-    // }    
+    // }
+    if (typeid(res) == typeid(int)){
+        puts("Type of both ID matches\n");
+    }    
     return 0;
 }

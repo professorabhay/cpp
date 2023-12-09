@@ -18,7 +18,7 @@ public:
     }
 
     int compare(Rectangle rectangle){
-        return this->Area() > rectangle.Area() ;
+        return this->Area() > rectangle.Area() ; // -> use to refer himself
     }
 };
 
@@ -37,4 +37,4 @@ int main (){
 }
 
 
-    // line 21 - R -> denotes to class and small r denotes to object from that class 
+    // line 20 - R -> denotes to class and small r denotes to object from that class 

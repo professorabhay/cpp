@@ -5,7 +5,10 @@ using namespace std ; // By default namespace
 int main(){
     // std::cout<<"Hello World\n";
     // std::cout<<"Hello World" << std::endl;
-    cout<< "Hello ! Abhay, Hope your are doing well." << endl;
+    cout<< "Hello, Abhay! Hope your are doing well." << endl;
+
+    int integer_array[4] ={1,2,3,4};
+    cout << integer_array << endl;
     
     int number;
     // cout << "Enter your code: ";
@@ -17,6 +20,10 @@ int main(){
     {
         /* code */
         // cout << i << endl;
+    }
+
+    for (int i : integer_array) {
+        cout << i << endl;
     }
     
     // string myColor;
@@ -34,9 +41,9 @@ int main(){
     // cout << "Hey! " <<firstName<< " " <<lastName<<endl;
 
     int arr[4] = {1,2,3,4};
-    int *ap = arr;
-    ap++;
-    *ap = 209;
+    int *ap = arr; // pointing to 0 index
+    ap++; // increasing pointer from 0 to 1
+    *ap = 209; // it change the index 1 value 
     cout<< arr[1]<<endl;
 
 }
